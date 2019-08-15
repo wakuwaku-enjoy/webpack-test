@@ -1,8 +1,9 @@
 import _ from 'lodash'
 import * as utilities from './utilities.js'
 import Lion from './utilities'
+import './style.css'
 
-console.log(NiJou(2));
+console.log(style.toString());
 console.log(Lion.say());
 
 function component(){
@@ -12,3 +13,4 @@ function component(){
   return element;
 }
 document.body.appendChild(component());
+document.body.classList.add('haikei')
