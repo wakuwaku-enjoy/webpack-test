@@ -2,8 +2,8 @@ import _ from 'lodash'
 import * as utilities from './utilities.js'
 import Lion from './utilities'
 import './style.css'
+import logo from './logo.png'
 
-console.log(style.toString());
 console.log(Lion.say());
 
 function component(){
@@ -14,3 +14,7 @@ function component(){
 }
 document.body.appendChild(component());
 document.body.classList.add('haikei')
+
+const image = new Image()
+image.src = logo
+document.body.appendChild(image);
