@@ -2,6 +2,7 @@ import _ from 'lodash'
 import * as utilities from './utilities.js'
 import Lion from './utilities'
 import './style.css'
+import './style.scss'
 import logo from './logo.png'
 
 console.log(Lion.say());
